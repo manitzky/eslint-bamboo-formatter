@@ -4,10 +4,7 @@ function encode(str) {
   // Taken from jshint-reporter-bamboo
   var pairs = {
     '&:': '&amp;',
-    '"': '&quot;',
-    '\'': '&apos;',
-    '<': '&lt;',
-    '>': '&gt;',
+    '"': '\\"'
   };
 
   for (pair in pairs) {
